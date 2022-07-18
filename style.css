@@ -1,0 +1,73 @@
+ul{
+    list-style-type: none;
+}
+.second{
+    float: right !important;
+}
+li{
+    display: inline;
+    margin-left: 15px;
+    margin-right: 10px;
+}
+.first, .second{
+    color: white;
+}
+body{
+    background-image: linear-gradient(to top, #30cfd0 0%, #330867 100%);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+.col-md-8{
+    margin-top: 120px !important;
+}
+.title{
+    font-size: 40px !important;
+    font-weight: bolder;
+    color: white;
+}
+.query{
+    width: 100%;
+    padding: 8px;
+    border-radius: 20px;
+    padding-left: 7% !important;
+    padding-right: 7% !important;
+    border-color: white;
+}
+.searchbox{
+    position: relative;
+}
+.mic{
+    position: absolute;
+    top: 0;
+    padding: 10px 12px;
+}
+.search{
+    position: absolute;
+    top: 0;
+    padding-left: 95%;
+    padding-top: 1%;
+}
+.searchbar{
+    margin-top: 7%;
+    font-size: 20px;
+}
+.money, .fsearch{
+    background-color: white;
+    padding: 10px;
+    border-radius: 5px;
+}
+#footer1, #footer2{
+    margin-top: 180px;
+    background-color: brown;
+    padding: 13px;
+    color: white;
+}
+#footer2{
+    float: right;
+}
+.photo{
+    border-radius: 10px;
+}
+#l, #b{
+    color: green;
+}
