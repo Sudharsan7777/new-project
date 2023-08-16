@@ -1,0 +1,246 @@
+@import "rsuite/dist/rsuite.css";
+
+
+/* Header*/
+
+.rs-navbar-default{
+    background-color: transparent;
+    padding-left: 45px;
+    padding-right: 45px;
+   }
+.buy{
+    float: right;
+}
+header{
+    background-color: lightgrey;
+}
+.rs-navbar-nav rs-nav rs-nav-default rs-nav-horizontal{
+    justify-content:center;
+}
+
+/* Subheading*/
+
+.content{
+    display: flex;
+    justify-content: space-between;
+    padding-left: 45px; 
+    padding-top: 45px;
+}
+.info{
+    display: flex;
+}
+
+
+.contact{
+    padding-left:10px;
+}
+.icons{
+    display: flex;
+    justify-content: space-between;
+    padding: 10px;
+    padding-right: 45px;
+}
+
+
+.category{
+    display: flex;
+    padding-left: 100px;
+}
+
+.items, .items2, .cart-services, footer{
+    padding:45px ;
+}
+.cart-iems1, .cart-iems2{
+    display: flex;
+    justify-content: space-between;
+}
+.cart-iems2{
+    padding-top:50px;
+}
+
+
+a.rs-dropdown-toggle.rs-dropdown-toggle-no-caret.rs-sidenav-item {
+    background-color:aquamarine;
+}
+.sidebar{
+    display: flex;
+    justify-content: space-between;
+}
+.body{
+
+    display: flex;
+    justify-content: space-between;
+    padding: 45px;
+}
+
+.image{
+    padding-top:40px;
+}
+
+.banner{
+    display: flex;
+}
+
+.content1{
+    position: absolute;
+    top: 30%;
+    left:25%;
+    transform: translate(-50%, -50%)
+}
+.rs-sidenav-default{
+    background-color:transparent ;
+}
+
+.container{
+    background-color: rgba(255, 255, 255, 0.5);
+    padding: 30px;
+    color: black;
+    font-size: 18px;
+    border-radius: 20px;
+    font-weight: bolder;
+    position: absolute;
+    top: 70%;
+    left:50%;
+    transform: translate(-50%, -50%)
+
+}
+
+.sidenav{
+    width: 40vh;
+}
+
+.subody{
+    padding-left: 5%;
+}
+
+.discover{
+    background-color: black;
+    color: white;
+}
+.men, .women, .accessories, .shoes, .new-arrival, .cart-imag1{
+    position: absolute;
+    top: 50%;
+    left:50%;
+    transform: translate(-50%, -50%)
+}
+.banner1{
+    position: absolute;
+    top: 70%;
+    left:50%;
+    transform: translate(-50%, -50%)
+}
+
+.cart-img,.cart-services{
+    display: flex;
+    justify-content: space-between  ;
+}
+
+.services{
+    position: absolute;
+    top: 10%;
+    left:200%;
+    transform: translate(-50%, -50%);
+    width: 100%;
+
+}
+
+.service1{
+    display: flex;
+    justify-content: space-between;
+}
+.service1-content{
+    padding-left: 20px;
+}
+
+.shop{
+    background-color: black;
+    color: white;
+}
+
+footer{
+    display: flex;
+    justify-content: space-between;
+    background-color: rgb(212, 238, 238)
+}
+
+.subscribebutton{
+    background-color: black;
+    color: white;
+    position: absolute;
+    left:87%;
+}
+.subscribe{
+    padding: 45px;
+}
+.gap{
+    margin-top: 10px;
+}
+.heading{
+    margin-bottom: 30px;
+}
+.end{
+    display: flex;
+    float:right;
+}
+.copyright{
+    display: flex;
+    justify-content: space-between;
+}
+.end-blog{
+    margin-left: 40px;
+}
+
+@media (max-width: 768px) {
+    .rs-navbar-default{
+        background-color: transparent;
+        padding-left: 45px;
+        padding-right: 45px;
+       }
+    .search{
+        display: none;
+    }
+    .sidenav{
+        width: 100%;
+    }
+    .body{
+        display: inline;
+    }
+    .image{
+        display: none;
+    }
+    .category, footer,.cart-services{
+        flex-direction: column;
+    }
+    .category-items{
+        margin-top: 50px;
+    }
+
+    .cart1{
+        display: none;
+    }
+    .items{
+        flex-direction: column;
+    }
+    .items2{
+        display: none
+    }
+    .cart-img{
+        flex-direction: column;
+    
+    }
+
+    .service1-content{
+        padding-right: 100px;
+    }
+    .service-img{
+        padding: 50px;
+    }
+    .subscribebutton{
+        margin-left: -43%;
+        }
+
+    .menu1, .menu2, .menu3, .menu4{
+        padding-bottom: 50px;
+    }
+
+}

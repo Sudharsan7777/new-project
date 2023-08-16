@@ -1,0 +1,102 @@
+/* Type.css */
+
+/* Alignment styles */
+.left {
+    text-align: left;
+  }
+  
+  .center {
+    text-align: center;
+  }
+  
+  .right {
+    text-align: right;
+  }
+  
+  .justify {
+    text-align: justify;
+  }
+  
+  /* Color styles */
+  .white {
+    color: white;
+  }
+  .lightgrey{
+    color: lightgrey;
+  }
+
+  .black {
+    color: black;
+  }
+  
+  .grey {
+    color: grey;
+  }
+  
+  .red {
+    color: red;
+  }
+  
+  /* Size styles */
+  .xs {
+    font-size: 12px;
+  }
+  
+  .s {
+    font-size: 14px;
+  }
+  
+  .m {
+    font-size: 16px;
+  }
+  
+  .l {
+    font-size: 18px;
+  }
+  
+  .xl {
+    font-size: 24px;
+  }
+  .mb{
+    font-size: 30px;
+  }
+  .xxl{
+    font-size:35px;
+  }
+  
+  /* Family styles */
+  .helvetica {
+    font-family: 'Helvetica', sans-serif;
+  }
+  
+  .palatino {
+    font-family: 'Palatino', serif;
+  }
+  
+  /* Other styles */
+  .bold {
+    font-weight: bold;
+  }
+  
+  .bolder {
+    font-weight: bolder;
+  }
+  
+  .underline {
+    text-decoration: underline;
+  }
+  
+  .normalFontWeight {
+    font-weight: normal;
+  }
+  
+  .withNormalLineHeight {
+    line-height: 1.9;
+  }
+  
+  .textCenter {
+    text-align: center;
+  }
+  
+  /* Add more styles based on your needs */
+  
