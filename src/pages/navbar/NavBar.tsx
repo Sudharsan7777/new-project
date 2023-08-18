@@ -1,17 +1,18 @@
 import { Navbar, Nav } from 'rsuite';
 import HomeIcon from '@rsuite/icons/legacy/Home';
 import CogIcon from '@rsuite/icons/legacy/Cog';
-import Box from '../box/Box';
+import Box from '../../components/box/Box';
 import Button from 'rsuite';
-import Typography from '../typography/typography';
+import Typography from '../../components/typography/typography';
 
 const CustomNavbar = () =>{
 
 
 return (
   
-
+<header>
   <div >
+
     <Navbar className='head' >
       <Nav >
         <Nav.Menu title='Home' trigger='hover' noCaret>
@@ -48,6 +49,7 @@ return (
       </Nav>
     </Navbar>
   </div>
+  </header>
 )};
 
 export default CustomNavbar

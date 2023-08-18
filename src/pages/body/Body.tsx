@@ -1,24 +1,11 @@
-import React from "react";
-import CustomNavbar from "../components/navbar/NavBar";
-import Imag from "../components/box-img/image";
-import SideBar from "../components/sidebar/SideBar";
-import Search from "../components/serachbox/SerchBox";
-import Button from "../components/button/Button";
-import Box from "../components/box/Box";
-import Footer from "../components/footer/Footer";
-import "./HomePage.css";
-import Typography from "../components/typography/typography";
-import Presbutton from "../components/button/Button";
+import React from 'react'
+import Box from '../../components/box/Box'
+import Typography from '../../components/typography/typography'
+import Presbutton from '../../components/button/Button'
 
-export const HomePage = () => {
+ const Body=()=> {
   return (
     <>
-      <header>
-        <CustomNavbar />
-      </header>
-
-      <Imag />
-      <SideBar />
       <div className="category">
         <Box
           src="https://clauem2.arrowtheme.com/media/wysiwyg/fbuilder/mk2-cate-01.jpeg"
@@ -168,6 +155,7 @@ export const HomePage = () => {
             alt="none"
             width={250}
             height={250}
+            className="offer-cart"
           >
             <div className="banner1">
             
@@ -253,6 +241,7 @@ export const HomePage = () => {
             alt="none"
             width={600}
             height={250}
+            className="offer-cart1"
           >
             <div className="cart-imag1">
               <Typography
@@ -411,9 +400,9 @@ export const HomePage = () => {
         </div>
       </div>
 
-      <Footer />
-    </>
-  );
-};
 
-export default HomePage;
+    </>
+  )
+}
+
+export default Body

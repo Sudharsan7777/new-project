@@ -1,10 +1,8 @@
-import { Sidenav, Nav, Button, Container } from 'rsuite';
-import Box from '../box/Box';
-import { useState } from 'react';
-import Presbutton from '../button/Button';
-import SearchBox from '../serachbox/SerchBox';
-import Typography from '../typography/typography';
-
+import { Sidenav, Nav,  Container } from 'rsuite';
+import Box from '../../components/box/Box';
+import Presbutton from '../../components/button/Button';
+import SearchBox from '../../components/serachbox/SerchBox';
+import Typography from '../../components/typography/typography';
 
 
 const SideBar = () => {
