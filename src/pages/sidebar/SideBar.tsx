@@ -15,13 +15,13 @@ return(
         <Nav activeKey="1" >
           <Nav.Menu eventKey="1" title={<span className="department-title">DEPARTMENT</span>} noCaret>
             <Nav.Menu eventKey="1-1" title='New Arrival' noCaret>
-                <Nav.Item eventKey='1-1-1' >New arrival</Nav.Item>
+                <Nav.Item eventKey='1-1-1' >Accessories</Nav.Item>
             </Nav.Menu>
             <Nav.Menu eventKey="1-2" title='shop' noCaret>
                 <Nav.Item eventKey='1-2-1'>shop1</Nav.Item>
             </Nav.Menu>
             <Nav.Item eventKey="1-3">Devices</Nav.Item>
-            <Nav.Item eventKey="1-4">Loyalty</Nav.Item>
+            <Nav.Item eventKey="1-4">Loyalty</Nav.Item>git
             <Nav.Item eventKey="1-5">Visit Depth</Nav.Item>
             <Nav.Item eventKey="1-6">Devices</Nav.Item>
             <Nav.Item eventKey="1-7">LookBook</Nav.Item>
