@@ -15,7 +15,8 @@ export const HomePage = () => {
       <Imag />  
       <SideBar />
       <Body/>  
-      <Footer />
+      <Footer /> 
+
     </>
   );
 };
