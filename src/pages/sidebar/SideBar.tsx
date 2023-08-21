@@ -24,7 +24,7 @@ return(
             <Nav.Item eventKey="1-4">Loyalty</Nav.Item>
             <Nav.Item eventKey="1-5">Visit Depth</Nav.Item>
             <Nav.Item eventKey="1-6">Devices</Nav.Item>
-            <Nav.Item eventKey="1-7">LookBook</Nav.Item>
+            <Nav.Item eventKey="1-7">Look</Nav.Item>
             <Nav.Item eventKey="1-8">Computers</Nav.Item>
             <Nav.Item eventKey="1-9">Devices</Nav.Item>
             <Nav.Item eventKey="1-10">TV&Audio</Nav.Item> 
