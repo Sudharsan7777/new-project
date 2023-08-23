@@ -38,30 +38,20 @@ return(
         type='text'
         className='search'
         placeholder='search'
-        width={1000}
-        height={40}
-        borderradius={5}
       />     
    <div className='banner'>  
   <Box src='https://clauem2.arrowtheme.com/media/mgs/fbuilder/promobanners/m/k/mk2-banner-03.jpeg'
   alt='none'
-  width={650}
-  height={420}
-  top={30}
-  left={30}
   className='image'
   ><div className='content1'><Typography msg='Beautiful 2023'
   tag='div'
   color='black'
   size='l' bolder/>
   <Typography msg='NEW ARRIVALS'
-  tag='h2'
+  tag='div'
   color='black'
-  size='xxxl' bolder/>
+  size='xl' bolder/>
     <Presbutton 
-  width={150}
-  height={30}
-  borderradius={20}
   text='discover me'
   classname='discover'
   /></div></Box>
@@ -69,13 +59,8 @@ return(
 
   <Box src='https://clauem2.arrowtheme.com/media/mgs/fbuilder/promobanners/m/k/mk2-banner-04.jpeg'
   alt='none'
-  width={300}
-  height={420}
-  className='image'
-  style={{marginLeft:'50px'}}
-  top={80}
-  left={50}
-  ><div className='container' > Top view in this week
+  className='image2'
+  ><div className='content2' > Top view in this week
   TRENDING</div>
   </Box>
   </div> 

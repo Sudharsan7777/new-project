@@ -7,7 +7,7 @@ import Presbutton from '../button/Button'
 const Footer = () => {
   return (
     <>
-       <footer>
+       <footer className='footer'>
             <div className='menu1'>
             <Box src='https://clauem2.arrowtheme.com/media/wysiwyg/fbuilder/logo-2x.png'
             alt='none'
@@ -18,7 +18,8 @@ const Footer = () => {
             tag='div'
             size='m'
             color='grey'
-            className='gap'/></a>
+            className='gap'
+            /></a>
             <a href='about:blank' target='_blank'><Typography msg=' contact@company.com'
             tag='div'
             size='m'
@@ -157,9 +158,7 @@ const Footer = () => {
         placeholder='Your email address'
         width={300}
         height={40}
-        borderradius={50}><Presbutton width={90}
-        height={38}
-        borderradius={20}
+        borderradius={50}><Presbutton 
         text='Subscribe'
         classname='subscribebutton'
         /></SearchBox>

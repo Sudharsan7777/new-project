@@ -13,11 +13,12 @@ export interface ButtonProps{
   
   }
 
-const Presbutton: React.FC<ButtonProps> = ({width, value, height, text, style, borderradius, classname}) => {
+const Presbutton: React.FC<ButtonProps> = ({value, text, classname}) => {
+ 
   return (
     <div>
         <form action="/" method="get" >
-        <button type="submit" value={value} style={{ width:`${width}px`, height:`${height}px`, borderRadius:`${borderradius}px`}} className={classname}>
+        <button type="submit" value={value}  className={classname}>
             <Typography msg={text}
             tag='div' />
         </button>

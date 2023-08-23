@@ -1,6 +1,6 @@
 import React from "react";
 import CustomNavbar from "../navbar/NavBar";
-import Imag from "../subHead/image";
+import Imag from "../subHead/ImageLoader";
 import SideBar from "../sidebar/SideBar";
 import Body from "../body/Body";
 import Footer from "../../components/footer/Footer";
