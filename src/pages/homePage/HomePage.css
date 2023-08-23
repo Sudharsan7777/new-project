@@ -1,245 +1,407 @@
 @import "rsuite/dist/rsuite.css";
 
+/* header*/
 
-/* Header*/
-
-.rs-navbar-default{
-    background-color: transparent;
-    padding-left: 45px;
-    padding-right: 45px;
-   }
-.buy{
-    float: right;
-}
-header{
-    background-color: lightgrey;
-}
-.rs-navbar-nav rs-nav rs-nav-default rs-nav-horizontal{
-    justify-content:center;
+*{
+    box-sizing: border-box;
 }
 
-/* Subheading*/
+.head{
+    background-color: beige;
+    padding: 0vh 10vh;
+    width: 100%;
+}
 
-.content{
+@media screen and (max-width: 500px) {
+     .nav-left, .nav-right{
+        display: flex;
+        flex-direction: column;
+       }
+}
+
+/*subhead*/
+
+
+.logo{
+    width:80%;
+}
+
+.icon1,.icon2, .icon3{
+    width: 3vh;
+    margin-right: 20px;
+}
+.content, .info, .icons{
     display: flex;
     justify-content: space-between;
-    padding-left: 45px; 
-    padding-top: 45px;
+    padding-top: 10px;
+    padding-bottom: 10px;
 }
 .info{
-    display: flex;
+    padding: 0vh 10vh;
 }
 
+.logo{
+    padding-left: 10vh;
+}
 
 .contact{
-    padding-left:10px;
+    margin-right: 10px;
 }
-.icons{
-    display: flex;
-    justify-content: space-between;
-    padding: 10px;
-    padding-right: 45px;
-}
-
-
-.category{
-    display: flex;
-    padding-left: 100px;
-}
-
-.items, .items2, .cart-services, footer{
-    padding:45px ;
-}
-.cart-iems1, .cart-iems2{
-    display: flex;
-    justify-content: space-between;
-}
-.cart-iems2{
-    padding-top:50px;
-}
-
-
-a.rs-dropdown-toggle.rs-dropdown-toggle-no-caret.rs-sidenav-item {
-    background-color:aquamarine;
-}
-.sidebar{
-    display: flex;
-    justify-content: space-between;
-}
-.body{
-
-    display: flex;
-    justify-content: space-between;
-    padding: 45px;
-}
-
-.image{
-    padding-top:40px;
-}
-
-.banner{
-    display: flex;
-}
-
-.content1{
-    position: absolute;
-    top: 30%;
-    left:25%;
-    transform: translate(-50%, -50%)
-}
-.rs-sidenav-default{
-    background-color:transparent ;
-}
-
-.container{
-    background-color: rgba(255, 255, 255, 0.5);
-    padding: 30px;
-    color: black;
-    font-size: 18px;
-    border-radius: 20px;
-    font-weight: bolder;
-    position: absolute;
-    top: 70%;
-    left:50%;
-    transform: translate(-50%, -50%)
+@media screen and (max-width: 500px) {
+    .content{
+        display: inline;
+    }
+    .logo{
+        padding-top: 20px;
+        padding-bottom: 20px;
+    }
+    .icon1,.icon2, .icon3{
+        width: 5vh;
+        margin-right: 20px;
+    }
+    .info{
+        padding: 20px;
+    }
 
 }
+
+/* sidenavbar*/
 
 .sidenav{
     width: 40vh;
 }
-
-.subody{
-    padding-left: 5%;
-}
-
-.discover{
-    background-color: black;
-    color: white;
-}
-.men, .women, .accessories, .shoes, .new-arrival, .cart-imag1{
-    position: absolute;
-    top: 50%;
-    left:50%;
-    transform: translate(-50%, -50%)
-}
-.banner1{
-    position: absolute;
-    top: 70%;
-    left:50%;
-    transform: translate(-50%, -50%)
-}
-
-.cart-img,.cart-services{
+.body{
+    padding: 20px 0px 0px 50px;
     display: flex;
-    justify-content: space-between  ;
 }
-
-.services{
-    position: absolute;
-    top: 10%;
-    left:200%;
-    transform: translate(-50%, -50%);
+.search{
     width: 100%;
-
-}
-
-.service1{
-    display: flex;
-    justify-content: space-between;
-}
-.service1-content{
+    height: 40px;
+    border-radius: 5px;
     padding-left: 20px;
 }
 
+.subody{
+    padding: 0px 20px;
+}
+
+.banner{
+    display: flex;
+    justify-content: space-between;
+    padding-top: 20px;
+
+}
+
+.content1{
+  position: absolute;
+  top: 20%;
+  left: 3%;
+}
+.discover{
+    width: 100px;
+    height: 25px;
+    border-radius: 20px;
+    color: white;
+    background-color: black;
+}
+
+.banner{
+    position: relative;
+}
+
+.image{
+    margin-right: 80px;
+}
+.content2{
+    position: absolute;
+    bottom: 100px;
+    background-color:rgba(255, 255, 255, 0.5);
+    text-align: center;
+    font-size: 20px;
+    width: 150px;
+    padding: 20px;
+    border-radius: 20px;
+    margin-left: 60px;
+    color: black;
+    font-weight: bold;
+}
+@media screen and (max-width: 500px){
+    .body{
+        display: inline;
+    }
+    .search{
+    display: none;
+    }
+    .sidenav{
+        width: 70vh;
+    }
+    .image{
+        width: 60vh;
+        margin-top: 50px;
+    }
+    .banner{
+        display: inline;
+    }
+    .image2, .content2{
+        display: none;
+    }
+}
+/*category*/
+
+.category{
+    display: flex;
+    padding: 30px;
+    justify-content: space-between;
+}
+.category-items1, .category-items2, .category-items3, .category-items4, .category-items5{
+    position: relative;
+    
+}
+
+.women, .men, .accessories, .shoes, .new-arrival{
+    position: absolute;
+    top: 40%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+@media screen and (max-width: 500px){
+    .category{
+        flex-direction: column;
+        padding-left: 20vh;
+    }
+    .category-items1, .category-items2, .category-items3, .category-items4, .category-items5{
+        margin-top: 20px;
+    }
+    .women, .men, .accessories, .shoes, .new-arrival{
+        left: 30%;
+    }
+}
+
+/*carts*/
+.items{
+    padding: 40px 100px 0px 50px;
+}
+.cart-items1, .cart-menu1, .cart-menu2{
+    display: flex;
+    position: relative;
+}
+.banner-imag1{
+    width:40vh;
+    height: 45vh;
+}
+.banner1{
+    position: absolute;
+    top: 60%;
+    left: 2%;
+}
+.cart1{
+    width: 80%;
+}
+.cart-menu1, .cart-menu2{
+    padding-left: 50px;
+}
+.banner-imag2{
+    width: 40vh;
+    height: 45vh;
+    padding-top: 20px;
+}
+.cart-items2{
+    position: relative;
+    display: flex;
+}
+.banner2{
+    position: absolute;
+    top: 50%;
+    left: 5%;
+}
 .shop{
+    width: 16vh;
     background-color: black;
     color: white;
+    border-radius: 10px;
 }
+.cart-menu2{
+    padding-top: 20px;
+}
+@media screen and (max-width: 500px){
+    .cart-menu1, .cart-menu2{
+        display: none;
+    }
+    .items{
+        padding-left: 10vh;
+    }
+    .banner-imag1, .banner-imag2{
+        width: 60vh;
+    }
+    .banner1{
+        position: absolute;
+        left: 20%;
+    }
+    .banner2{
+        position: absolute;
+        left: 30%;
+
+    }
+}
+
+/* offer cart */
+.offers{
+    display: flex;
+    padding: 50px;
+    justify-content: space-between;
+}
+.offer-imag1{
+    position: relative;
+    
+}
+.offer-cart1{
+    position: absolute;
+    top: 40%;
+    left: 40%;
+}
+@media screen and (max-width: 500px){
+    .offers{
+        display: inline;
+    }
+    .offer-image1, .offer-image2{
+        width:90%;
+        padding-left: 5vh;
+        margin-bottom: 60px;
+    }
+}
+
+/* services*/
+.service-imag1{
+    width: 50%;
+    position: relative;
+    left: 20%;
+}
+.service-imag2{
+    width: 35%;
+    position: relative;
+    left: 40%;
+}
+.service-imag3{
+    width: 25%;
+    position: relative;
+    left: 50%;
+}
+.service-imag4{
+    width: 12%;
+    position: relative;
+    left: 45%;
+}
+
+.service1, .service4{
+    display: flex;
+}
+
+.cart-services{
+    display: flex;
+    padding: 50px;
+}
+
+.service1-content4{
+    position: relative;
+    right: 20%;
+    width: 100%;
+}
+@media screen and (max-width: 500px){
+    .cart-services{
+        display: inline;
+    }
+    .service-imag1{
+        width: 30%;
+        position: relative;
+        left: 40%;}
+        .service-imag2{
+            width: 20%;
+            position: relative;
+            left: 20%;
+        }
+        .service-imag3{
+            width: 15%;
+            position: relative;
+            left: 23%;
+        }
+        .service-imag4{
+            width: 17%;
+            position: relative;
+            left: 36%;
+        }
+        .service1-content2, .service1-content3{
+            position: relative;
+            right: 20%;
+        }
+        .service4{
+            position: relative;
+            right: 8%;
+        }
+        .service1-content4{
+            padding-left: 15px;
+        }
+        .service1, .service4{
+            padding-bottom: 20px;
+        }
+    
+}
+
+/*Footer*/
 
 footer{
     display: flex;
     justify-content: space-between;
-    background-color: rgb(212, 238, 238)
+    padding: 50px;
+}
+
+.footer{
+    background-color: antiquewhite;
+}
+
+.gap{
+    margin-top: 15px;
 }
 
 .subscribebutton{
+    position: relative;
+    left:74%;
     background-color: black;
     color: white;
-    position: absolute;
-    left:87%;
-}
-.subscribe{
-    padding: 45px;
-}
-.gap{
-    margin-top: 10px;
-}
-.heading{
-    margin-bottom: 30px;
-}
-.end{
-    display: flex;
-    float:right;
-}
-.copyright{
-    display: flex;
-    justify-content: space-between;
-}
-.end-blog{
-    margin-left: 40px;
+    border-radius: 20px;
 }
 
-@media (max-width: 768px) {
-    .rs-navbar-default{
-        background-color: transparent;
-        padding-left: 45px;
-        padding-right: 45px;
-       }
-    .search{
-        display: none;
-    }
-    .sidenav{
-        width: 100%;
-    }
-    .body{
+@media screen and (max-width: 500px){
+    footer{
         display: inline;
+        padding: 20px
     }
-    .image{
-        display: none;
-    }
-    .category, footer,.cart-services{
-        flex-direction: column;
-    }
-    .category-items{
-        margin-top: 50px;
-    }
-
-    .cart1{
-        display: none;
-    }
-    .items{
-        flex-direction: column;
-    }
-    .items2{
-        display: none
-    }
-    .cart-img{
-        flex-direction: column;
-    
-    }
-
-    .service1-content{
-        padding-right: 100px;
-    }
-    .service-img{
-        padding:50px;
+    .footer{
+        background-color: transparent;
     }
     .subscribebutton{
-        margin-left: -43%;
-        }
+        position: relative;
+        left: 45%;
+    }
+    .subscribebox{
+        margin-top: 20px;
+    }
+}
 
-    .menu1, .menu2, .menu3, .menu4{
-        padding-bottom: 50px;
+.copyright, .end{
+    display: flex;
+}
+
+.end{
+    position: relative;
+    left: 50%;
+}
+
+.end-blog{
+    margin-left: 20px;
+}
+
+@media screen and (max-width: 500px){
+    .end{
+        display: none;
     }
 }

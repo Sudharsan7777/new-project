@@ -15,10 +15,10 @@ interface InboxProps {
 
 const Box: FC<InboxProps> = ({ src, alt = 'none', width, height, borderRadius, className, style, children, top, left }) => {
   return (
-    <div className={className} style={style}>
+    <div >
       <a href='about:blank' target='_blank' style={{ display: 'inline-block' }}>
-        <div style={{ position: 'relative' }}>
-          <img src={src} alt={alt} style={{ width: `${width}px`, height: `${height}px`, borderRadius: `${borderRadius}px` }} />
+        <div>
+          <img src={src} className={className}  />
           {children}
         </div>
       </a>
