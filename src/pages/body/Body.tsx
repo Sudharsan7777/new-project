@@ -1,9 +1,12 @@
-import React from "react";
+
 import Box from "../../components/box/Box";
 import Typography from "../../components/typography/typography";
 import Presbutton from "../../components/button/Button";
+import Cart from "../../components/cart/Cart";
 
 const Body = () => {
+  
+
   return (
     <>
       <div className="category">
@@ -102,10 +105,11 @@ const Body = () => {
             </div>
           </Box>
           <div className="cart-menu1">
+            <div className="cart1">
             <Box
               src="https://clauem2.arrowtheme.com/media/catalog/product/cache/de6bec506494940b8fbc8b6822d59d20/o/r/orson_prd_12_1_1_2.jpg"
               alt="none"
-              className="cart1"
+              className="cart-imag1"
             >
               <Typography
                 msg="cuffed beanie"
@@ -113,15 +117,17 @@ const Body = () => {
                 size="l"
                 color="black"
               />
+              
               <Typography msg="$115.0" tag="div" size="xs" color="black" bold />
             </Box>
+            <Cart className="cart-fac1"/>
+            </div>
 
+            <div className="cart2">
             <Box
               src="https://clauem2.arrowtheme.com/media/catalog/product/cache/de6bec506494940b8fbc8b6822d59d20/1/4/14759082921406855888_1_1.jpg"
               alt="none"
-              width={200}
-              height={180}
-              className="cart1"
+              className="cart-imag1"
             >
               <Typography
                 msg="Brownie sneaky"
@@ -131,28 +137,32 @@ const Body = () => {
               />
               <Typography msg="$6.0" tag="div" size="xs" color="black" bold />
             </Box>
-
+            <Cart className="cart-fac1"/>
+            </div>
+            <div className="cart3">
             <Box
               src="https://clauem2.arrowtheme.com/media/catalog/product/cache/de6bec506494940b8fbc8b6822d59d20/o/r/orson_prd_24_1_2.jpg"
               alt="none"
-              width={200}
-              height={180}
-              className="cart1"
+              className="cart-imag1"
             >
               <Typography msg="Pinl Leather" tag="div" size="l" color="black" />
               <Typography msg="$245.0" tag="div" size="xs" color="black" bold />
+              
             </Box>
+            <Cart className="cart-fac1"/>
+            </div>
 
+            <div className="cart4">
             <Box
               src="https://clauem2.arrowtheme.com/media/catalog/product/cache/de6bec506494940b8fbc8b6822d59d20/9/_/9_2_5.jpg"
               alt="none"
-              width={200}
-              height={180}
-              className="cart1"
+              className="cart-imag1"
             >
               <Typography msg="Rose Gold" tag="div" size="l" color="black" />
               <Typography msg="$115.0" tag="div" size="xs" color="black" bold />
             </Box>
+            <Cart className="cart-fac1"/>
+            </div>
           </div>
         </div>
 
@@ -189,10 +199,11 @@ const Body = () => {
             </div>
           </Box>
           <div className="cart-menu2">
+          <div className="cart4">
             <Box
               src="https://clauem2.arrowtheme.com/media/catalog/product/cache/de6bec506494940b8fbc8b6822d59d20/o/r/orson_prd_12_1_1_2.jpg"
               alt="none"
-              className="cart1"
+              className="cart-imag1"
             >
               <Typography
                 msg="cuffed beanie"
@@ -202,10 +213,13 @@ const Body = () => {
               />
               <Typography msg="$115.0" tag="div" size="xs" color="black" bold />
             </Box>
+            <Cart className="cart-fac1"/>
+            </div>
+            <div className="cart4">
             <Box
               src="https://clauem2.arrowtheme.com/media/catalog/product/cache/de6bec506494940b8fbc8b6822d59d20/1/4/14759082921406855888_1_1.jpg"
               alt="none"
-              className="cart1"
+              className="cart-imag1"
             >
               <Typography
                 msg="Brownie sneaky"
@@ -215,22 +229,30 @@ const Body = () => {
               />
               <Typography msg="$6.0" tag="div" size="xs" color="black" bold />
             </Box>
+            <Cart className="cart-fac1"/>
+            </div>
+            <div className="cart4">
             <Box
               src="https://clauem2.arrowtheme.com/media/catalog/product/cache/de6bec506494940b8fbc8b6822d59d20/o/r/orson_prd_24_1_2.jpg"
               alt="none"
-              className="cart1"
+              className="cart-imag1 "
             >
               <Typography msg="Pinl Leather" tag="div" size="l" color="black" />
               <Typography msg="$245.0" tag="div" size="xs" color="black" bold />
             </Box>
+            <Cart className="cart-fac1"/>
+            </div>
+            <div className="cart4">
             <Box
               src="https://clauem2.arrowtheme.com/media/catalog/product/cache/de6bec506494940b8fbc8b6822d59d20/9/_/9_2_5.jpg"
               alt="none"
-              className="cart1"
+              className="cart-imag1"
             >
               <Typography msg="Rose Gold" tag="div" size="l" color="black" />
               <Typography msg="$115.0" tag="div" size="xs" color="black" bold />
             </Box>
+            <Cart className="cart-fac1"/>
+            </div>
           </div>
         </div>
       </div>
