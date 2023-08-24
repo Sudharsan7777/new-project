@@ -183,6 +183,7 @@
 }
 .cart-items1, .cart-menu1, .cart-menu2{
     display: flex;
+    justify-content: space-between;
     position: relative;
 }
 .banner-imag1{
@@ -191,11 +192,21 @@
 }
 .banner1{
     position: absolute;
-    top: 60%;
+    bottom: 20%;
     left: 2%;
 }
-.cart1{
-    width: 80%;
+.cart-imag1{
+    width: 30vh;
+}
+
+.cart1, .cart2, .cart3,.cart4{
+    margin-right: 50px;
+}
+.cart-fac1{
+    position: relative;
+    bottom: 30%;
+    width: 50%;
+    left: 25%;
 }
 .cart-menu1, .cart-menu2{
     padding-left: 50px;

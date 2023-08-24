@@ -1,0 +1,19 @@
+.cart-add{
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 5%;
+}
+
+.increment, .decrement, .clear{
+    height: 10%;
+    color: white;
+    background-color: grey;
+    border-radius: 20px;
+}
+
+.clear{
+    width: 100%;
+}
+span{
+    color: white;
+}
