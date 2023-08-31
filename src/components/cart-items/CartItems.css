@@ -1,0 +1,26 @@
+/* CartItems.css */
+
+.cart-item {
+    width: 15%;
+    height: 10%;
+    position: relative;
+    transition: transform 0.3s; /* Add a smooth transition effect */
+  }
+  
+  .cart-item:hover {
+    transform: scale(1.05); /* Enlarge the card on hover */
+  }
+  
+  .facility {
+    position: absolute;
+    top: 45%;
+    left: 25%;
+    width: 50%;
+    display: none;
+    padding: 10px;
+  }
+  
+  .cart-item:hover .facility {
+    display: block; /* Show the facility on hover */
+  }
+  

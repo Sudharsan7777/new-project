@@ -1,11 +1,13 @@
 import { Navbar, Nav } from 'rsuite';
+import React from 'react';
+
+
 const CustomNavbar = () =>{
-
-
 return (
   
 <header>
   <div >
+
 
     <Navbar className='head' >
       <Nav className='nav-left'>

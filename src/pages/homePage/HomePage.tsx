@@ -5,18 +5,18 @@ import SideBar from "../sidebar/SideBar";
 import Body from "../body/Body";
 import Footer from "../../components/footer/Footer";
 import "./HomePage.css";
+import { Container } from "react-bootstrap"
 
 
 export const HomePage = () => {
   return (
     <>
-      
+    
       <CustomNavbar />
       <Imag />  
       <SideBar />
       <Body/>  
       <Footer /> 
-
     </>
   );
 };
