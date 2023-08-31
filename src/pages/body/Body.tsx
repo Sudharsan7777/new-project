@@ -222,7 +222,7 @@ const Body = () => {
               className="cart-imag1"
             >
               <Typography
-                msg="Brownie sneaky"
+                msg="Brownie-sneaky"
                 tag="div"
                 size="l"
                 color="black"
