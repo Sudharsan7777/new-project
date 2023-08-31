@@ -84,7 +84,7 @@ const Body = () => {
           >
             <div className="banner1">
               <Typography
-                msg="VIEW COLLECTIONS"
+                msg="VIEW COLLECTION"
                 size="l"
                 color="black"
                 tag="div"
