@@ -26,7 +26,7 @@ const Body = () => {
             alt="none"
           >
             <div className="men">
-              <Typography msg="Mens" tag="div" size="xl" color="white" bolder />
+              <Typography msg="Men" tag="div" size="xl" color="white" bolder />
             </div>
           </Box>
         </div>
