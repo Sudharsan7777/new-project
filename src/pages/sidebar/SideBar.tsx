@@ -18,7 +18,7 @@ return(
                 <Nav.Item eventKey='1-1-1' >Accessories</Nav.Item>
             </Nav.Menu>
             <Nav.Menu eventKey="1-2" title='shop' noCaret>
-                <Nav.Item eventKey='1-2-1'>shop1</Nav.Item>
+                <Nav.Item eventKey='1-2-1'>New styles</Nav.Item>
             </Nav.Menu>
             <Nav.Item eventKey="1-3">Devices</Nav.Item>
             <Nav.Item eventKey="1-4">Loyalty</Nav.Item>
