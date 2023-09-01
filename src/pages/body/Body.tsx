@@ -63,7 +63,7 @@ const Body = () => {
           >
             <div className="new-arrival">
               <Typography
-                msg="New Arrival"
+                msg="New Arrivals"
                 tag="p"
                 size="xl"
                 color="white"
